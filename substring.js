@@ -14,7 +14,7 @@ var longestSubstring = (str) => {
       }
     }
     result.push(x);
-    console.log("result = ", result);
+    console.log("result = ", result.join(""));
   }
   console.log("count = ", countLength);
 };

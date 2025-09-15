@@ -6,4 +6,4 @@ var reverseString = (str) => {
   }
   console.log("reversed = ", reversed);
 };
-reverseString("rachel");
+reverseString("reebumol");
