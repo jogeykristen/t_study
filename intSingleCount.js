@@ -16,7 +16,7 @@ var longestCharacter = async (str) => {
   }
   console.log("charCount === ", charCount);
   for (let y in charCount) {
-    //console.log("char == ",y,"count === ",charCount[y])
+    console.log("char == ",y,"count === ",charCount[y])
 
     if (charCount[y] > temp) {
       //console.log("charCount === ",charCount[y],"temp value ==== ",temp)

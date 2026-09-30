@@ -15,6 +15,7 @@ var TopWords = async (arr) => {
       checkCount[word]++;
     }
   }
+  console.log("checkcount ===== ", checkCount);
 
   // Convert object to array of [word, count]
   let wordCounts = [];

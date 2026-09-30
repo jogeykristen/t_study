@@ -11,4 +11,4 @@ const fact = (num) => {
   }
 };
 
-fact(1);
+fact(5);

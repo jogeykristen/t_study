@@ -31,6 +31,6 @@ const newParagraph = async (str) => {
 };
 
 var str =
-  "Hello, My name is ritesh and my email is ritesh@gmail.com and ritesh@kor.ne can you please send me some good quotes";
+  "Hello, My name is ritesh and my email is ritesh@gmail.com and ritesh@kor.net can you please send me some good quotes";
 newParagraph(str);
 //output -- "Hello, My name is ritesh and my email is rxxxxx@xxxxx.com and rxxxxx@xxxx.net can you please send me some good quotes"

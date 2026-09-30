@@ -26,5 +26,5 @@ var missingNumber = (arr) => {
   console.log("Arr = ", arr);
 };
 
-var arr = [11, 13, 15, 16, 17];
+var arr = [11, 14, 15, 16, 17];
 missingNumber(arr);

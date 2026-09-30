@@ -7,8 +7,10 @@ var arrayAnagram = (items) => {
     console.log(sortedWord);
 
     if (!charCount[sortedWord]) {
+      console.log("word inside not == ", charCount[sortedWord]);
       charCount[sortedWord] = [word];
     } else {
+      console.log("word outside not == ", charCount[sortedWord]);
       charCount[sortedWord].push(word);
     }
   }
